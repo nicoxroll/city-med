@@ -29,7 +29,19 @@ export const ChatAssistant: React.FC = () => {
     setTimeout(() => {
       setMessages(prev => [...prev, { 
         role: 'bot', 
-        text: 'Para obtener más información o realizar consultas específicas, por favor contactanos directamente a nuestro correo electrónico: info@clinicacitybell.com.ar. Nuestro equipo te responderá a la brevedad.' 
+        text: `Somos la Clínica Privada City Bell.
+
+Realizamos Legrado Uterino Instrumental (LUI).
+El procedimiento dura 15-30 min bajo anestesia general.
+
+Valores vigentes (03/12/2025):
+• Sem 3 a 9: $1.100.000
+• Sem 10 a 14: $1.460.000
+• Sem 15 a 18: $1.800.000
+
+ATENCIÓN: Se atiende únicamente con DNI.
+
+Contacto: clinicaginecologicacitybell@gmail.com`
       }]);
       setIsLoading(false);
     }, 600);
@@ -62,7 +74,7 @@ export const ChatAssistant: React.FC = () => {
           <div ref={scrollRef} className="flex-1 overflow-y-auto p-4 space-y-4 bg-slate-50">
             {messages.map((m, i) => (
               <div key={i} className={`flex ${m.role === 'user' ? 'justify-end' : 'justify-start'}`}>
-                <div className={`max-w-[80%] p-4 rounded-2xl text-sm leading-relaxed ${
+                <div className={`max-w-[80%] p-4 rounded-2xl text-sm leading-relaxed whitespace-pre-wrap ${
                   m.role === 'user' 
                     ? 'bg-sky-600 text-white rounded-tr-none' 
                     : 'bg-white text-slate-700 shadow-sm border border-slate-100 rounded-tl-none'
