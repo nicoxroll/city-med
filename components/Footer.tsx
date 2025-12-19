@@ -44,7 +44,7 @@ export const Footer: React.FC = () => {
               <li><a href="#" className="hover:text-sky-400 transition-colors">Obras Sociales</a></li>
               <li><a href="#" className="hover:text-sky-400 transition-colors">Preguntas Frecuentes</a></li>
               <li><a href="#" className="hover:text-sky-400 transition-colors">Privacidad</a></li>
-              <li><a href="#contact" className="hover:text-sky-400 transition-colors">Contacto</a></li>
+              <li><a href="mailto:clinicaginecologicacitybell@gmail.com" className="hover:text-sky-400 transition-colors">clinicaginecologicacitybell@gmail.com</a></li>
             </ul>
           </div>
         </div>

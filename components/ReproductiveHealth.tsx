@@ -18,6 +18,28 @@ export const ReproductiveHealth: React.FC = () => {
             <p className="text-slate-600 leading-relaxed">
               En Clínica City Bell garantizamos tu derecho a la salud integral. Brindamos un espacio de absoluta privacidad, respeto y excelencia médica para la interrupción voluntaria y legal del embarazo (ILE/IVE), siguiendo los protocolos vigentes y la Ley 27.610.
             </p>
+
+            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200 space-y-4">
+              <h4 className="font-bold text-slate-900">Información del Procedimiento (LUI)</h4>
+              <p className="text-sm text-slate-600">
+                En nuestro centro médico realizamos Legrado Uterino Instrumental (LUI). El procedimiento tiene una duración aproximada de 15 a 30 minutos y se realiza bajo anestesia general, siempre que los valores clínicos de la paciente sean adecuados para el procedimiento.
+              </p>
+              
+              <div className="space-y-2">
+                <p className="font-semibold text-slate-800 text-sm">Valores vigentes desde el 03/12/2025:</p>
+                <ul className="text-sm text-slate-600 space-y-1 list-disc list-inside">
+                  <li>Semana 3 a semana 9: $1.100.000</li>
+                  <li>Semana 10 a semana 14: $1.460.000</li>
+                  <li>Semana 15 a semana 18: $1.800.000</li>
+                </ul>
+                <p className="text-xs text-slate-500 italic mt-2">Para embarazos de mayor edad gestacional, consultar evaluación médica previa.</p>
+              </div>
+
+              <div className="bg-amber-50 text-amber-800 px-4 py-3 rounded-xl text-sm font-bold border border-amber-100 flex items-start gap-2">
+                <Info className="w-5 h-5 flex-shrink-0" />
+                <p>ATENCIÓN: Se atiende únicamente con DNI, sin excepción.</p>
+              </div>
+            </div>
           </div>
 
           <div className="grid sm:grid-cols-2 gap-6">
@@ -64,7 +86,7 @@ export const ReproductiveHealth: React.FC = () => {
               Solicitar Turno Prioritario
             </button>
             <a 
-              href="mailto:saludreproductiva@clinicacitybell.com.ar?subject=Consulta%20Salud%20Reproductiva"
+              href="mailto:clinicaginecologicacitybell@gmail.com?subject=Consulta%20Salud%20Reproductiva"
               className="w-full sm:w-auto flex items-center justify-center gap-2 text-slate-600 font-semibold px-8 py-4 rounded-2xl border border-slate-200 hover:bg-slate-50 transition-all"
             >
               <Mail className="w-5 h-5 text-sky-600" />
@@ -84,7 +106,7 @@ export const ReproductiveHealth: React.FC = () => {
           </div>
           <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-2xl shadow-xl max-w-xs border border-slate-100">
             <p className="text-sky-600 font-bold text-lg mb-1">Ley 27.610</p>
-            <p className="text-xs text-slate-500 leading-tight">Garantizamos el acceso a la interrupción del embarazo de forma gratuita, segura y legal.</p>
+            <p className="text-xs text-slate-500 leading-tight">Garantizamos el acceso a la interrupción del embarazo de forma segura y legal.</p>
           </div>
         </div>
       </div>

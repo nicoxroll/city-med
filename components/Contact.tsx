@@ -49,6 +49,18 @@ export const Contact: React.FC = () => {
 
               <div className="flex gap-4 group">
                 <div className="bg-sky-50 w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-2xl text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-all duration-300">
+                  <Mail className="w-6 h-6" />
+                </div>
+                <div>
+                  <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Email</p>
+                  <a href="mailto:clinicaginecologicacitybell@gmail.com" className="text-slate-800 font-semibold hover:text-sky-600 transition-colors break-all">
+                    clinicaginecologicacitybell@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex gap-4 group">
+                <div className="bg-sky-50 w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-2xl text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-all duration-300">
                   <Clock className="w-6 h-6" />
                 </div>
                 <div>
