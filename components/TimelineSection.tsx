@@ -88,7 +88,7 @@ export const TimelineSection: React.FC = () => {
   return (
     <div className="max-w-7xl mx-auto px-6">
       <div className="text-center space-y-4 mb-12">
-        <h2 className="text-sky-600 font-bold tracking-widest uppercase text-sm">Nuestra Clínica en Imágenes</h2>
+        <h2 className="text-sky-600 font-bold tracking-widest uppercase text-sm">Nuestra Clínica Privada en Imágenes</h2>
         <h3 className="text-4xl font-bold text-slate-900">Trayectoria y Tecnología</h3>
       </div>
       <div className="space-y-12">

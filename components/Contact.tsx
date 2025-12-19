@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { MapPin, Phone, Mail, Send, Clock, Calendar } from 'lucide-react';
+import { MapPin, Mail, Send, Clock, Calendar } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   return (
@@ -38,17 +38,6 @@ export const Contact: React.FC = () => {
 
               <div className="flex gap-4 group">
                 <div className="bg-sky-50 w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-2xl text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-all duration-300">
-                  <Phone className="w-6 h-6" />
-                </div>
-                <div>
-                  <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Teléfonos</p>
-                  <p className="text-slate-800 font-semibold">(0221) 472-3333</p>
-                  <p className="text-slate-500 text-sm">Línea directa de guardia 24hs</p>
-                </div>
-              </div>
-
-              <div className="flex gap-4 group">
-                <div className="bg-sky-50 w-12 h-12 flex-shrink-0 flex items-center justify-center rounded-2xl text-sky-600 group-hover:bg-sky-600 group-hover:text-white transition-all duration-300">
                   <Mail className="w-6 h-6" />
                 </div>
                 <div>
@@ -69,24 +58,6 @@ export const Contact: React.FC = () => {
                   <p className="text-slate-800 font-semibold">Sábados: 09:00 - 13:00</p>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="bg-slate-900 p-8 rounded-[2rem] text-white overflow-hidden relative group">
-            <div className="relative z-10">
-              <div className="bg-sky-500/20 w-12 h-12 rounded-xl flex items-center justify-center mb-4">
-                <Calendar className="w-6 h-6 text-sky-400" />
-              </div>
-              <h4 className="text-2xl font-bold mb-2">Turnos Online</h4>
-              <p className="text-slate-400 text-sm mb-6 leading-relaxed">
-                Agenda tu cita con cualquier especialista desde la comodidad de tu casa.
-              </p>
-              <button className="bg-sky-600 hover:bg-sky-500 text-white px-8 py-3.5 rounded-xl font-bold text-sm transition-all shadow-lg shadow-sky-900/20 active:scale-95">
-                Acceder al Portal
-              </button>
-            </div>
-            <div className="absolute -right-12 -bottom-12 opacity-10 group-hover:scale-110 transition-transform duration-700">
-              <Calendar className="w-64 h-64" />
             </div>
           </div>
         </div>

@@ -17,7 +17,7 @@ export const Hero: React.FC = () => {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span>
               </span>
-              Excelencia Médica en City Bell
+              Excelencia Médica Privada en City Bell
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-slate-900 leading-[1.1]">
@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
             </h1>
             
             <p className="text-lg text-slate-600 max-w-lg leading-relaxed">
-              En Clínica City Bell combinamos tecnología de última generación con la calidez humana que nuestra comunidad merece. Tu bienestar es nuestra única prioridad.
+              En Clínica Privada City Bell combinamos tecnología de última generación con la calidez humana que nuestra comunidad merece. Tu bienestar es nuestra única prioridad.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

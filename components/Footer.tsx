@@ -13,11 +13,11 @@ export const Footer: React.FC = () => {
                 <HeartPulse className="w-6 h-6 text-white" />
               </div>
               <span className="text-xl font-bold tracking-tight text-white">
-                Clínica <span className="text-sky-400">City Bell</span>
+                Clínica Privada <span className="text-sky-400">City Bell</span>
               </span>
             </a>
             <p className="max-w-xs leading-relaxed">
-              Líderes en salud en la región norte. Innovación constante para el bienestar de nuestra comunidad.
+              Líderes en salud privada en la región norte. Innovación constante para el bienestar de nuestra comunidad.
             </p>
             <div className="flex gap-4">
               {[Instagram, Facebook, Twitter, Linkedin].map((Icon, idx) => (
@@ -50,7 +50,7 @@ export const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium uppercase tracking-widest">
-          <p>© 2024 Clínica City Bell. Todos los derechos reservados.</p>
+          <p>© 2024 Clínica Privada City Bell. Todos los derechos reservados.</p>
           <p>Diseñado con excelencia para la comunidad.</p>
         </div>
       </div>
