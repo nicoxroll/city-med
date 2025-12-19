@@ -30,7 +30,6 @@ export const Contact: React.FC = () => {
                 <div>
                   <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-1">Ubicación</p>
                   <p className="text-slate-800 font-semibold leading-snug">
-                    Calle 473 Bis N° 1234<br />
                     City Bell, La Plata
                   </p>
                 </div>
