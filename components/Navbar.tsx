@@ -19,7 +19,6 @@ export const Navbar: React.FC = () => {
     { name: 'Nosotros', href: '#about' },
     { name: 'Salud Reproductiva', href: '#reproductive-health' },
     { name: 'Especialidades', href: '#services' },
-    { name: 'Contacto', href: '#contact' },
   ];
 
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

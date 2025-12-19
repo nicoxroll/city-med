@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { HeartPulse, Instagram, Facebook, Linkedin, Twitter } from 'lucide-react';
+import { HeartPulse } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -19,13 +19,6 @@ export const Footer: React.FC = () => {
             <p className="max-w-xs leading-relaxed">
               Líderes en salud privada en la región norte. Innovación constante para el bienestar de nuestra comunidad.
             </p>
-            <div className="flex gap-4">
-              {[Instagram, Facebook, Twitter, Linkedin].map((Icon, idx) => (
-                <a key={idx} href="#" className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-sky-600 hover:text-white transition-all">
-                  <Icon className="w-5 h-5" />
-                </a>
-              ))}
-            </div>
           </div>
           
           <div className="space-y-6">
